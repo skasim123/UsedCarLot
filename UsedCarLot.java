@@ -7,7 +7,7 @@ public class UsedCarLot
   private Car c1, c2, c3, c4, c5;
   int totalValue;
   
-public Car usedCarList[] = new Car [5];  
+ArrayList<String> list=new ArrayList<String>(Carlist);//Creating arraylist   
  public UsedCarLot(){
      /** loop and add cars to the array usedCarlist**/
      
